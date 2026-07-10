@@ -48,17 +48,19 @@ pipeline {
         }
 
         stage('Deploy to Production') {
-            steps {
-                input message: 'Approve Production Deployment?',
-                      ok: 'Deploy Now'
-                echo 'Deploying to Production...'
-                sh '''
-                    sudo mkdir -p /var/www/prod
-                    sudo cp index.html /var/www/prod/
-                    echo "Production Deployment done!"
-                '''
-            }
-        }
+    steps {
+        input message: 'Approve Production Deployment?',
+              ok: 'Deploy Now'
+        echo 'Deploying to Production...'
+        sh '''
+            sudo mkdir -p /var/www/prod
+            sudo cp index.html /var/www/prod/
+            sudo cp index.html /var/www/html/index.html
+            sudo systemctl restart apache2
+            echo "Production Deployment done!"
+        '''
+    }
+}
 
     }
 
