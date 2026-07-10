@@ -61,6 +61,7 @@ jenkins-cicd-aws/
 ├── console-output.png
 └── live-website.png
 
+
 ## Setup Instructions
 
 ### Step 1 - Launch AWS EC2
