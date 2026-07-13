@@ -131,20 +131,17 @@ Jenkins: http://54.173.16.147:8080
 
 ## Screenshots
 
-### Jenkins Pipeline — All Stages Green
-![Pipeline](screenshots/pipeline-stages.png)
+### Build History
+![Build History](screenshots/build%20history.png)
+
+### Build Overview — All Stages Green
+![Build Overview](screenshots/build%20over%20view.png)
 
 ### Console Output — Build Success
-![Console](screenshots/console-output.png)
-
-### Jenkins Dashboard
-![Dashboard](screenshots/jenkins-dashboard.png)
-
-### Live Website
-![Website](screenshots/live-website.png)
+![Console Output](screenshots/console%20output.png)
 
 ### GitHub Webhook Active
-![Webhook](screenshots/github-webhook.png)
+![Webhook](screenshots/webhook.png)
 
 ## Author
 Logesh V - Cloud System Engineer
