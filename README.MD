@@ -1,4 +1,8 @@
 # Jenkins CI/CD Pipeline on AWS EC2
+![Jenkins Build](https://img.shields.io/badge/Jenkins-Build%20Passing-brightgreen?style=for-the-badge&logo=jenkins)
+![AWS EC2](https://img.shields.io/badge/AWS-EC2-FF9900?style=for-the-badge&logo=amazonaws)
+![Apache](https://img.shields.io/badge/Apache-Deployed-D22128?style=for-the-badge&logo=apache)
+![GitHub Webhook](https://img.shields.io/badge/Webhook-Active-blue?style=for-the-badge&logo=github)
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -124,6 +128,23 @@ Save
 ## Live Demo
 Website: http://54.173.16.147
 Jenkins: http://54.173.16.147:8080
+
+## Screenshots
+
+### Jenkins Pipeline — All Stages Green
+![Pipeline](screenshots/pipeline-stages.png)
+
+### Console Output — Build Success
+![Console](screenshots/console-output.png)
+
+### Jenkins Dashboard
+![Dashboard](screenshots/jenkins-dashboard.png)
+
+### Live Website
+![Website](screenshots/live-website.png)
+
+### GitHub Webhook Active
+![Webhook](screenshots/github-webhook.png)
 
 ## Author
 Logesh V - Cloud System Engineer
